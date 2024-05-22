@@ -1,0 +1,3 @@
+BEGIN TRANSACTION;
+DELETE FROM Books where books_id = '103';
+ROLLBACK;
